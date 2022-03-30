@@ -257,7 +257,7 @@ public:
 
         std::random_device dev;
         std::mt19937 rng(dev());
-        std::uniform_int_distribution<std::mt19937::result_type> dist100(0, 20); // distribution in range [1, 6]
+        std::uniform_int_distribution<std::mt19937::result_type> dist100(0, 20); 
 
         for (double i = 0; i < MAX_ITERATION; i++)
         {
